@@ -1,0 +1,172 @@
+.wrapper-home{
+    padding-top: 50px;
+}
+
+.home-music{
+    background-color: white;
+    border-radius: 25px;
+    padding:25px;
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.head-home{
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.add-music{
+    margin: 20px;
+}
+
+.table-list-music{
+    margin: 20px 20px;
+}
+
+
+.table>thead>tr>th{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    background-color: #F37022;
+}
+
+.table>tbody{
+    align-items: center;
+}
+
+
+.button-add-music{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #F37022;
+    border: 1px solid #F37022;
+    color: white;
+}
+
+.button-add-music:hover{
+    cursor:pointer;
+    background-color: #ee5b00;
+}
+
+
+.feedback-error{
+    color: red;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: 400;
+}
+
+    .button-play{
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: none;
+        color: #4db748;
+        background-color: transparent;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .button-others{
+    background-color: rgba(0, 0, 0, 0.274);
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    border-radius: 5px;
+    padding: 5px 10px 5px;
+    margin: 5px;
+  }
+
+  .button-others:hover{
+    border-color: rgba(0, 0, 0, 0.274);
+    font-weight: 600;
+  }
+
+  .button-delete{
+      background-color: red;
+      color: white;
+      width: 90%;
+      border: 1px solid red;
+      border-radius: 5px;
+      padding: 5px 10px;
+      margin: 5px;
+  }
+
+  .button-delete:hover{
+    border-color: rgb(219, 0, 0);
+    background-color: rgb(219, 0, 0);
+  }
+
+  .button-edit-music{
+      background-color: #0C4CA3;
+      color: white;
+      width: 90%;
+      border: 1px solid #0C4CA3;
+      border-radius: 5px;
+      padding: 5px 10px;
+      margin: 5px;
+  }
+
+  .button-edit-music:hover{
+    border-color: #0C4CA3;
+    font-weight: 600;
+  }
+
+.icon-play{
+    font-size: xx-large;
+    width: 100%;
+}
+
+.wrapper-image-artist{
+    overflow: hidden;
+  }
+
+  .image-artist{
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .wrap-image-artist{
+      overflow: hidden;
+      width: 50%;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      box-shadow: 5px 5px 5px 2px whitesmoke;
+  }
+
+  .input-form__artist{
+    font-size: 14px !important;
+    color: darkslategray !important;
+  }
+
+  .wrap-sample-audio{
+      padding: 0px 15px 10px;
+      margin: 0px 10px 10px;
+  }
+
+  .audio-button{
+      color: transparent;
+      text-align: center;
+      width: 100%;
+  }
+
+  .wrapper-audio-button{
+      text-align: center;
+      width: 100%;
+      padding-top: 10px;
+  }
+
+  .wrap-modals__audio{
+    background: #FFAFBD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  }

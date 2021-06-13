@@ -24,6 +24,25 @@
   color: white;
 }
 
+*{
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+
+
+.wrap-all{
+    padding-bottom: 200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
 .App-link {
   color: #61dafb;
 }
